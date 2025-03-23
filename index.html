@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html lang="hu">
+
+    <head>
+
+	    <meta charset="UTF-8"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap-grid.min.css">
+	    <link rel="stylesheet" href="styles.css">
+        
+        <title>Vasicsek Balazs homework</title>
+
+    </head>
+
+    <body>
+        
+        <!-- Intro -->
+        
+        <div class="container my-5">
+            <h1 class="text-center">A számítógép belső felépítése</h1>
+            <h2 class="text-center">Bevezetés</h2>
+            <p>
+                A számítógépek története lenyűgöző fejlődéstörténet, amely az emberi találékonyság és technológiai innováció eredményeként jött létre. Az első elektronikus számítógépek, mint például az 1940-es években készült ENIAC, hatalmas méretűek és energiaigényesek voltak. Ezeket főként tudományos és katonai célokra használták, például ballisztikai számításokhoz.
+            </p>
+            <p>
+                Azóta a számítógépek drámai átalakuláson mentek keresztül: méretük csökkent, míg teljesítményük jelentősen növekedett, és mára szerves részévé váltak mindennapjainknak.
+            </p>
+        </div>
+        
+        <!-- Box -->
+
+        <div class="container my-5">
+            <h2 class="text-center">Gépház</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        A számítógépház, más néven ház vagy torony, a számítógép külső borítását jelenti, amely a belső alkatrészek védelmét és rögzítését szolgálja. Elsődleges feladata, hogy megóvja az érzékeny hardverelemeket a portól, nedvességtől és fizikai sérülésektől, miközben biztosítja a megfelelő szellőzést és hőelvezetést.
+                        A gépházak különféle méretben és kialakításban érhetők el, például mini, midi, és full torony formában, hogy megfeleljenek az adott konfiguráció igényeinek. Modern házak gyakran rendelkeznek további funkciókkal is, mint például zajcsökkentő megoldásokkal, RGB világítással vagy moduláris belső kialakítással, amelyek megkönnyítik a hardverek telepítését és cseréjét.
+                        Az esztétikai megjelenés mellett a gépház kritikus szerepet játszik a számítógép hűtési rendszerének hatékonyságában is. A szellőzőrácsok, ventilátorhelyek és folyadékhűtésre alkalmas tervezés lehetővé teszik, hogy a számítógép optimális hőmérsékleten működjön, még intenzív terhelés alatt is.
+                    </p>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1;">
+                    <img src="img/box.png" alt="Gépház" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+        
+        <!-- Motherboard -->
+        
+        <div class="container my-5">
+            <h2 class="text-center">Alaplap</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        Az alaplap a számítógép belső felépítésének egyik legfontosabb eleme, amely egy központi kapcsolóközpontként szolgál az összes hardverelem számára. Fizikailag és funkcionálisan is az alaplap köti össze a számítógép különböző komponenseit, mint például a processzort, a memóriát, a tápegységet és a perifériákat, lehetővé téve azok együttműködését.
+                    </p>
+                    <ul>
+                        <li>Északi híd (Northbridge): Az északi híd felel a nagy sebességű adatforgalomért, például a processzor (CPU), a memóriák (RAM) és a videokártya (GPU) közötti kommunikációért.</li>
+                        <li>Déli híd (Southbridge): A déli híd az alacsonyabb sebességű adatforgalmat kezeli, például a merevlemezeket (HDD/SSD), USB portokat stb.</li>
+                    </ul>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1;">
+                    <img src="img/motherboard.jpg" alt="Alaplap" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>           
+
+        <!-- Power Supply -->   
+        
+        <div class="container my-5">
+            <h2 class="text-center">Tápegység</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        A számítógép energiaközpontja a tápegység (Power Supply Unit, PSU) a számítógép működésének egyik elengedhetetlen része, amely az elektromos hálózatból származó váltóáramot (AC) alakítja át egyenárammá (DC), melyet a számítógép alkatrészei használnak. Ez az eszköz biztosítja az összes komponens számára a megfelelő mennyiségű és típusú energiát, ami kulcsfontosságú a stabil és megbízható működéshez.
+                    </p>
+                    <p>
+                        A tápegység fő jellemzői közé tartozik a teljesítmény (watt), a hatékonyság és a csatlakozók típusa. A különböző teljesítményű tápegységek (pl. 500W, 750W, 1000W) különböző konfigurációkhoz készülnek: egy játékra szánt gép például nagyobb teljesítményű PSU-t igényelhet, mint egy irodai célra használt számítógép. Az energiahatékonyságot gyakran a 80 PLUS minősítési rendszer jelöli, amely a tápegység hatásfokát méri különböző terhelések mellett (pl. Bronze, Silver, Gold, Platinum, Titanium).
+                    </p>
+                    <p>
+                        A tápegységek számos típusú csatlakozóval rendelkeznek, amelyek különböző komponensekhez kapcsolódnak, például az alaplaphoz, a processzorhoz, a videokártyához és az adattárolókhoz. A modern moduláris tápegységek lehetővé teszik, hogy csak azokat a kábeleket csatlakoztassuk, amelyekre ténylegesen szükség van, ezzel csökkentve a kábelrendet és javítva a légáramlást a házban.
+                    </p>
+                    <p>
+                        Fontos megemlíteni, hogy a tápegység kiválasztásakor érdemes megbízható gyártót választani, mint például a Corsair, Seasonic vagy EVGA, hiszen a minőségi tápegység hozzájárul az egész rendszer hosszabb élettartamához és védelméhez.
+                    </p>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1; text-align: center;">
+                    <img src="img/powersupply.png" alt="Tápegység" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/psu2.jpg" alt="Tápegység" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>        
+        
+        <!-- CPU -->
+        
+        <div class="container my-5">
+            <h2 class="text-center">Processzor</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        A számítógép agya a processzor (CPU, azaz Central Processing Unit) a számítógép legfontosabb elemei közé tartozik, mivel ez felelős az adatok feldolgozásáért és a műveletek végrehajtásáért. Minden számítás, amelyet a számítógép végez, a processzorban történik, így ez az alkatrész központi szerepet játszik a rendszer teljesítményében és funkcionalitásában.
+                    </p>
+                    <p>
+                        A modern processzorok több maggal rendelkeznek, amelyek lehetővé teszik a párhuzamos feldolgozást, így a többmagos processzorok egyszerre több feladatot is hatékonyan tudnak végrehajtani. Emellett a processzor órajele (GHz-ben mérve) jelzi, hogy milyen gyorsan képes műveleteket végrehajtani.
+                    </p>
+                    <p>
+                        A vezető processzorgyártók, mint például az Intel és az AMD, folyamatosan fejlesztik termékeiket, hogy növeljék azok teljesítményét és energiahatékonyságát. Az olyan technológiák, mint a hiper-szálkezelés (Hyper-Threading) és a precíziós boost, újabb szintre emelik a processzorok képességeit.
+                    </p>
+                    <p>
+                        A processzor architektúrája határozza meg a CPU felépítését és működését, azaz azt, hogy hogyan kezeli az adatokat és hajtja végre az utasításokat. Az architektúra alapvetően két fő összetevőből áll: a rendszerutasítás-készletből (Instruction Set Architecture, ISA) és a mikroarchitektúrából.
+                    </p>
+                    <ul>
+                        <li>Aritmetikai-logikai egység (ALU): Az ALU végzi a matematikai és logikai műveleteket, például az összeadást, kivonást és összehasonlításokat.</li>
+                        <li>Vezérlőegység (CU): Ez irányítja az adatok mozgását a processzoron belül és az egyéb hardverelemek között.</li>
+                        <li>Regiszterek: Kis méretű, rendkívül gyors memóriacellák, amelyek az aktuális műveletekhez szükséges adatokat tárolják.</li>
+                    </ul>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1; text-align: center;">
+                    <img src="img/cpu.png" alt="Processzor" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/cpu2.png" alt="Tápegység" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>        
+            
+        <!-- RAM -->
+        
+        <div class="container my-5">
+            <h2 class="text-center">RAM</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        A számítógép rövid távú memóriája a RAM (Random Access Memory). A RAM ideiglenesen tárolja az adatokat és programokat, amelyeket a processzor éppen használ, ezzel biztosítva a gyors és hatékony adatfeldolgozást. Minél nagyobb a RAM kapacitása, annál több adatot képes egy időben kezelni a számítógép, ami közvetlenül hat a rendszer teljesítményére.
+                    </p>
+                    <p>
+                        A RAM működését alapvetően két kategóriába soroljuk.
+                    </p>
+                    <ul>
+                        <li>DRAM (Dynamic RAM): Ez a leggyakoribb típusú memória a személyi számítógépekben. A DRAM folyamatosan frissítést igényel, mivel az adatok áramkörökben tárolódnak, amelyek elektromos töltést használnak. A modern DRAM típusok, például a DDR4 és DDR5 nagyobb sebességet és alacsonyabb energiafogyasztást kínálnak.</li>
+                        <li>SRAM (Static RAM): Az SRAM gyorsabb, mint a DRAM, mivel nem igényel folyamatos frissítést. Azonban drágább és kevesebb adatot képes tárolni, ezért általában a processzorok gyorsítótárában (cache memory) használják.</li>
+                    </ul>
+                    <p>
+                        A RAM teljesítményét több tényező határozza meg.
+                    </p>
+                    <ul>
+                        <li>Sebesség (MHz vagy MT/s): A gyorsabb RAM-ok lehetővé teszik, hogy a processzor gyorsabban elérje az adatokat, így növelve a rendszer teljesítményét.</li>
+                        <li>Kapacitás (GB): A nagyobb RAM kapacitás lehetővé teszi, hogy több program fusson egyszerre anélkül, hogy a rendszer lassulna.</li>
+                        <li>Késleltetés (Latency): A késleltetés a memória válaszidejét jelzi, ami szintén hatással van a teljesítményre.</li>
+                    </ul>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1; text-align: center;">
+                    <img src="img/ram.jpeg" alt="RAM" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/ram2.png" alt="RAM" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/ram3.jpg" alt="RAM" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>        
+             
+        <!-- GPU -->
+        
+        <div class="container my-5">
+            <h2 class="text-center">Videókártya</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        A grafikai számításokért a GPU (Graphics Processing Unit) vagyis grafikus feldolgozó egység felel. Vizuális megjelenítés szempontjából az egyik legfontosabb alkotóeleme a számítógépeknek. Míg a CPU az általános számítási műveletekért felel, a GPU kifejezetten a grafikai és párhuzamos számítások hatékony elvégzésére lett tervezve. Ezért nélkülözhetetlen olyan területeken, mint a számítógépes játékok, a 3D modellezés, a videószerkesztés, valamint a tudományos kutatások.
+                    </p>
+                    <p>
+                        A GPU főbb funkciói.
+                    </p>
+                    <ul>
+                        <li>Renderelés: A GPU felelős a képek, animációk és videók rendereléséért, azaz előállításáért. Ez teszi lehetővé a valósághű grafikai megjelenítést játékokban vagy filmekben.</li>
+                        <li>Párhuzamos számítások: A GPU több ezer maggal rendelkezik, amelyek párhuzamosan képesek műveleteket végrehajtani. Ez lehetővé teszi, hogy rendkívül gyorsan dolgozza fel a nagy mennyiségű adatot, például gépi tanulás vagy szimulációk során.</li>
+                    </ul>
+                    <p>
+                        A GPU-k két fő típusa.
+                    </p>
+                    <ul>
+                        <li>Integrált GPU: Az ilyen típusú grafikus feldolgozóegységek közvetlenül a processzorba vannak beépítve. Ezek ideálisak alapvető grafikai feladatokhoz, például irodai munkához és médiafogyasztáshoz.</li>
+                        <li>Dedikált GPU: A dedikált grafikus kártyák, mint például az Nvidia GeForce vagy az AMD Radeon termékei, különálló egységek, amelyeket nagyobb teljesítményt igénylő feladatokra terveztek. Ezeknek saját hűtési rendszereik és memóriájuk (VRAM) van, amely lehetővé teszi a kifinomultabb feladatok végrehajtását.</li>
+                    </ul>
+                    <p>
+                        Az olyan technológiák, mint a ray tracing (sugárkövetés) és a DLSS (Deep Learning Super Sampling), tovább növelik a modern GPU-k képességeit, lehetővé téve a valós idejű fények, árnyékok és tükröződések szimulálását, miközben minimalizálják a teljesítményveszteséget.
+                    </p>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1; text-align: center;">
+                    <img src="img/gpu.jpg" alt="Videókártya" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/gpu2.jpg" alt="Videókártya" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/gpu3.png" alt="Videókártya" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>        
+              
+        <!-- Storage -->
+        
+        <div class="container my-5">
+            <h2 class="text-center">Adattárolók</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        A hosszú távú memória, az adattárolók a számítógép egyik legfontosabb komponensei, mivel ezeken kerül tárolásra az operációs rendszer, az alkalmazások és a felhasználói adatok. Az adattárolók fejlődése lehetővé tette a nagyobb kapacitást, gyorsabb elérést és megbízhatóbb működést. Két fő típust különböztethetünk meg: a merevlemezeket (HDD) és a szilárdtest-meghajtókat (SSD).
+                    </p>
+                    <ul>
+                        <li>Merevlemezek (HDD - Hard Disk Drive): Mágneses tárolást használnak, ahol az adatokat forgó lemezekre (platters) írják és olvassák le egy olvasófej segítségével. Ezek jellemzően nagy kapacitást kínálnak alacsonyabb áron, de lassabbak az adatelérés szempontjából, mint az SSD-k. HDD-ket gyakran alkalmaznak nagy méretű fájlok, például multimédiás tartalmak tárolására.</li>
+                        <li>Szilárdtest-meghajtók (SSD - Solid State Drive): Az SSD-k teljesen eltérő technológiát használnak: nem tartalmaznak mozgó alkatrészeket, helyette flash memóriachipeken tárolják az adatokat. Ez jelentősen növeli az elérési sebességet, és ellenállóbbá teszi őket a fizikai sérülésekkel szemben. Az SSD-k különösen népszerűek a gyors rendszerteljesítmény érdekében, például játékoknál és operációs rendszerek futtatásánál.</li>
+                    </ul>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Jellemző</th>
+                                <th>HDD</th>
+                                <th>SSD</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Sebesség</td>
+                                <td>Lassabb</td>
+                                <td>Gyorsabb</td>
+                            </tr>
+                            <tr>
+                                <td>Kapacitás</td>
+                                <td>Nagyobb, olcsóbb</td>
+                                <td>Kisebb, drágább</td>
+                            </tr>
+                            <tr>
+                                <td>Élettartam</td>
+                                <td>Mozgó alkatrészek miatt sérülékenyebb</td>
+                                <td>Ellenállóbb</td>
+                            </tr>
+                            <tr>
+                                <td>Energiaigény</td>
+                                <td>Több energiát fogyaszt</td>
+                                <td>Kevesebb energiát fogyaszt</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>
+                        A modern adattárolók kapacitása terabájtokban mérhető, és az olyan gyártók, mint a Western Digital, Seagate és Samsung, folyamatosan fejlesztenek új technológiákat, hogy megfeleljenek a felhasználók növekvő igényeinek.
+                    </p>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1; text-align: center;">
+                    <img src="img/hddssd.jpg" alt="Adattárolók" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/hdd.png" alt="Adattárolók" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/ssd.jpg" alt="Adattárolók" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>        
+        
+        <!-- Peripherals -->
+       
+        <div class="container my-5">
+            <h2 class="text-center">Perifériák</h2>
+            <div class="d-flex flex-column flex-md-row align-items-center">
+                <!-- Text -->
+                <div style="flex: 2; margin-right: 20px;">
+                    <p>
+                        A számítógép kiterjesztései a perifériák, azok az eszközök, amelyek a számítógéphez kapcsolódva teszik lehetővé az adatbevitel, -kimenet és egyéb funkciók használatát. Bár nem közvetlenül részei a számítógép belső felépítésének, elengedhetetlenek a hatékony működéshez és a felhasználói élményhez.
+                    </p>
+                    <p>
+                        <strong>Input eszközök</strong><br>
+                        Az input perifériák a számítógépre történő adatbevitel eszközei.
+                    </p>
+                    <ul>
+                        <li>Billentyűzet: A szövegbevitel elsődleges eszköze. Különféle típusok érhetők el, például mechanikus, membrános vagy ergonomikus billentyűzetek.</li>
+                        <li>Egér: A számítógép grafikus kezelőfelületének vezérlésére szolgál. Az optikai és lézeres egerek mellett modern alternatívák is elérhetők, például érintőpadok és érintőképernyők.</li>
+                        <li>Egyéb eszközök: Ide tartoznak például a játékkontrollerek és szkennerek, amelyek speciális funkciókat kínálnak.</li>
+                    </ul>
+                    <p>
+                        <strong>Output eszközök</strong><br>
+                        Az output perifériák felelősek a számítógép által generált adatok megjelenítéséért.
+                    </p>
+                    <ul>
+                        <li>Monitor: A vizuális megjelenítés eszköze, amely különböző technológiákat alkalmazhat, mint például LCD, LED vagy OLED. A felbontás (HD, 4K, 8K) és a képfrissítési ráta (Hz) jelentősen befolyásolják a felhasználói élményt.</li>
+                        <li>Hangszórók és fejhallgatók: A hangkimenet eszközei, amelyek fontosak a médiafogyasztás és kommunikáció szempontjából.</li>
+                        <li>Nyomtató: Az adatok fizikai hordozóra történő nyomtatásához használatos, beleértve a hagyományos tintasugaras és lézernyomtatókat.</li>
+                    </ul>
+                    <p>
+                        <strong>Egyéb perifériák</strong><br>
+                        A perifériák közé tartozhatnak olyan eszközök is, amelyek kiegészítő funkciókat biztosítanak.
+                    </p>
+                    <ul>
+                        <li>Webkamera: A vizuális kommunikációt teszi lehetővé, például videohívások során.</li>
+                        <li>Tároló eszközök: Külső merevlemezek, SSD-k és USB-meghajtók, amelyek az adatok tárolására és szállítására használhatók.</li>
+                        <li>Hálózati eszközök: A vezetékes vagy vezeték nélküli kapcsolatot biztosítják, mint például a Wi-Fi adapterek és routerek.</li>
+                    </ul>
+                    <p>
+                        A perifériák sokszínűsége lehetővé teszi, hogy a számítógép alkalmazkodjon a felhasználók egyedi igényeihez, legyen szó munkáról, szórakozásról vagy speciális feladatokról.
+                    </p>
+                </div>
+                <!-- Image -->
+                <div style="flex: 1; text-align: center;">
+                    <img src="img/peri.png" alt="Perifériák" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/peri2.png" alt="Perifériák" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/peri3.jpg" alt="Perifériák" class="img-fluid rounded shadow">
+                    <br><br><br>
+                    <img src="img/peri4.jpg" alt="Perifériák" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>        
+     
+         <!-- Footer -->
+
+        <div class="container my-5 text-center">
+            <footer>
+                <p>&copy; Vasicsek Balázs ITK I. Home Project</p>
+            </footer>
+        </div>
+        
+        <!-- Bootstrap -->
+        
+        <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    
+    </body>
+</html>
